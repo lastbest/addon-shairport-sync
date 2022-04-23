@@ -19,7 +19,7 @@ RUN apk -U add \
         soxr-dev \
         avahi-dev \
         libconfig-dev \
- && cd /root \
+ && cd /config \
  && git clone https://github.com/mikebrady/shairport-sync.git \
  && cd shairport-sync \
  && autoreconf -i -f \
