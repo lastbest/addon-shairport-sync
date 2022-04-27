@@ -24,7 +24,7 @@ RUN apk -U add \
  && cd shairport-sync \
  && autoreconf -i -f \
  && ./configure \
-        --sysconfdir=/etc \
+        --sysconfdir=/root/etc \
         --with-alsa \
         --with-pipe \
         --with-avahi \
