@@ -29,6 +29,7 @@ RUN apk -U add \
         --with-avahi \
         --with-ssl=openssl \
         --with-soxr \
+        --with-mqtt-client
         --with-metadata \
  && make \
  && make install \
