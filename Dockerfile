@@ -62,6 +62,7 @@ RUN apk -U add \
         /var/cache/apk/* \
         /lib/apk/db/* \
         /root/shairport-sync
+        /var/run/dbus.pid
 
 # Copy root filesystem
 COPY rootfs /
