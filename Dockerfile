@@ -67,6 +67,9 @@ RUN apk -U add \
 # Copy root filesystem
 COPY rootfs /
 
+#remove
+ENTRYPOINT rm -f /var/run/dbus.pid
+
 # Build arguments
 ARG BUILD_ARCH
 ARG BUILD_DATE
